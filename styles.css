@@ -1,0 +1,67 @@
+:root{
+    --color-fondo: #FAFAFC;
+    --color-fuente: #4a4a4e;
+    --color_botones: #d3d1dd;
+    --fuente: "Poppins";
+    --image: url("https://images.unsplash.com/photo-1631714777290-d81bbb3ef248?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzMjM5Nzk0NA&ixlib=rb-1.2.1&q=80&w=1600");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    background: var(--color-fondo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 25%;
+    height: 60%;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    background-image: var(--image);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+
+.cardinfo{
+    font-family: var(--fuente);
+    color: var(--color-fuente);
+    background: var(--color-fondo);
+    height: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    align-self: flex-end;
+}
+
+.cardinfo h2{
+    font-weight: bolder;
+    font-size: 0.9em;
+}
+
+.cardinfo p, .cardinfo span{
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.cardinfo p{
+    padding: 5px 0;
+}
+
+span{
+    background-color: var(--color_botones);
+    border-radius: 15px;
+    padding: 5px 5px;
+}
+
+span{
+    background-color: #d3d1dd;
+    border-radius: 15px;
+    margin-right: 5px;
+    padding: 5px 5px;
+}
